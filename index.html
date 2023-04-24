@@ -1,36 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lato:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+ 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Link the external stylesheet to the HTML document -->
+    <link rel="stylesheet" href="style.css" />
     <title>Guess My Number!</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1 class="good">Guess My Number!</h1>
-        <p class="between">(Between 1 and 20)</p>
-        <button class="btn again">Again!</button>
-        <div class="number">?</div>
-      </header>
-      <main>
-        <section class="left">
-          <input type="number" class="guess" />
-          <button class="btn check">Check!</button>
-        </section>
-        <section class="right">
-          <p class="message">Start guessing...</p>
-          <p class="label-score">💯 Score: <span class="score">20</span></p>
-          <p class="label-highscore">
-            🥇 Highscore: <span class="highscore">0</span>
-          </p>
-        </section>
-      </main>
+      <!-- Set the main heading of the page to "Guess My Number!" -->
+      <h1 class="good">Guess My Number!</h1>
+      <!-- Display a message indicating the range of the number to be guessed -->
+      <p class="between">(Between 1 and 20)</p>
+      <!-- Display a button that allows the user to start a new game -->
+      <button class="btn again">Again!</button>
+      <!-- Display an element that will show the randomly generated number to be guessed -->
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <!-- Display an input field where the user can enter their guesses -->
+        <input type="number" class="guess" />
+        <!-- Display a button that allows the user to check their guess -->
+        <button class="btn check">Check!</button>
+      </section>
+      <section class="right">
+        <!-- Display a message to remind the user to start guessing -->
+        <p class="message">Start guessing...</p>
+        <!-- Display the current score of the user -->
+        <p class="label-score">💯 Score: <span class="score">20</span></p>
+        <!-- Display the high score of the user -->
+        <p class="label-highscore">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <!-- Link the JavaScript file to the HTML document -->
     <script src="script.js"></script>
-</body>
+  
+  </body>
 </html>
