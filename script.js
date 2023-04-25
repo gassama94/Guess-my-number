@@ -11,4 +11,13 @@ let highScore = 0;
 document.querySelector('.check').addEventListener('click', function(){
     const guess = Number(document.querySelector('.guess').value);
     console.log(guess, typeof guess);
+
+
+    /**
+     * checking if there is a value in the input
+     */
+    if(!guess){
+         document.querySelector('.message').textContent = '⛔️ No number!';
+
+    }
 })
