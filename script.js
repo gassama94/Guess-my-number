@@ -28,10 +28,35 @@ document.querySelector('.check').addEventListener('click', function(){
         document.querySelector('.number').style.width = '30rem';
 
     }else if (guess > secretNumber){
-        document.querySelector('.message').textContent = ' 📈 Too High';
+        if(score > 0){
+
+            document.querySelector('.message').textContent = ' 📈 Too High';
+            //score reduces by 1 if the secret number is high
+            score = score - 1;
+            document.querySelector('.score').textContent = score;
+        }else{
+            document.querySelector('.message').textContent = '😭 You lost the Game';
+            document.querySelector('.score').textContent = 0;
+
+        }
+
+
+
        
     }else if (guess < secretNumber){
-        document.querySelector('.message').textContent = ' 📉 Too low';
+        if(score > 1){
+            document.querySelector('.message').textContent = ' 📉 Too low';
+            //score reduces by 1 if the secret number is low
+            score = score - 1;
+            document.querySelector('.score').textContent = score;
+
+        }else{
+            document.querySelector('.message').textContent = '😭 You lost the Game';
+            document.querySelector('.score').textContent = 0;
+
+        }
+       
+       
           
 
     }
