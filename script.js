@@ -26,6 +26,14 @@ document.querySelector('.check').addEventListener('click', function(){
        // color changes to green if palyer wins and width number gets bigger
         document.querySelector('body').style.backgroundColor = '#60b347';
         document.querySelector('.number').style.width = '30rem';
+
+
+        // if current score is greater than highscore setting the highscore to that current score
+        if(score > highScore){
+            highScore = score;
+            document.querySelector('.highscore').textContent = highScore;
+
+        }
         
         
         // when guess is too high
@@ -66,7 +74,7 @@ document.querySelector('.check').addEventListener('click', function(){
     }
 })
 
-
+// Setting everything back to default 
 document.querySelector('.again').addEventListener('click', function(){
     score = 20;
     secretNumber = Math.trunc(Math.random() * 20 +1)
