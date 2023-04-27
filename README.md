@@ -1,11 +1,11 @@
 # Guessing Number Game
 This is a simple number guessing game built with HTML, CSS, and JavaScript. The game generates a random number between 1 and 20 and the player has to guess the number. If the player guesses correctly, they win the game. If they guess incorrectly, they lose a point from their score. The game ends when the player's score reaches 0 or when they guess the correct number.
-<img src"screentime.png">
+
 ![alt text](screentime.png)
 
 # Game Design
 The game has a simple design that is easy to use and understand. The user interface consists of a number input, a check button, and a reset button. The game also includes a message area that displays messages to the user, such as whether their guess was too high or too low. The game's background color changes depending on whether the user wins or loses the game. When the user wins the game, the game displays a congratulatory message and the user's score. When the user loses the game, the game displays a message telling the user they lost and the correct number. The game also keeps track of the user's highest score, which is displayed after each game.
-
+![alt text](gamedesign.png)
 
 ## How to Play ?
 1. Enter a number between 1 and 20 in the input field and click the "Check!" button.
@@ -13,6 +13,26 @@ The game has a simple design that is easy to use and understand. The user interf
 3. You have 20 chances to guess the correct number. If you run out of chances, the game ends and the background turns red.
 4. If you win the game, your high score will be updated if your current score is higher than your previous high score.
 5. Click the "Again" button to reset the game and start over.
+
+# Game Features
+Random number generation: The game generates a random number between 1 and 20 each time a new game is started.
+![alt text](startguessing.png)
+20 attempts: The player has 20 attempts to guess the number correctly.
+
+# User interface: 
+* The game has a simple user interface that displays the current score, the high score, and a message that tells the player if their guess was too high, too low, or correct.
+
+Score system: The game deducts a point from the player's score each time they make an incorrect guess. The game also keeps track of the player's high score.
+
+Play again: The player can start a new game by clicking the "Play Again" button.
+
+Responsive design: The game has a responsive design that adjusts to different screen sizes.
+
+Accessibility: The game uses semantic HTML and includes ARIA attributes to make it accessible to users with disabilities.
+
+Validation: The game validates user input to make sure that it is a number between 1 and 20. If the input is invalid, the game displays an error message.
+
+Animations: When the player wins, the background color of the page changes to green and the width of the number increases. When the player loses, the background color changes to red.
 
 # Technical Details
 ## JavaScript
