@@ -127,7 +127,8 @@ While manual testing and peer review were sufficient for this project, in the fu
 
 * Finally, I enabled GitHub Pages for my repository by going to the "Settings" tab on my repository page, scrolling down to the "GitHub Pages" section, and selecting "Branch: website" under "Source".
 
-That's it! Now my yoga Game is deployed on GitHub and accessible to anyone at https://[Guessmynumber].gassama94.github.io/Guess-my-number/. With Gitpod, the entire process was made much easier and streamlined.
+That's it! Now my Game is deployed on GitHub and accessible to anyone.
+
 
 ## Github Preparation
 * It is possible to copy or clone the repository to directly for deployment.
@@ -149,16 +150,12 @@ I created this game by following a tutorial, taught by Jonas Schmedtmann. Howeve
 
 Here are the specific resources that I used during the development process:
 
-"The Complete JavaScript: From Zero to Expert!" by Jonas Schmedtmann - I followed this course to learn the fundamentals of JavaScript and how to build interactive web applications.
-
 Mozilla Developer Network (MDN) - I referred to the MDN documentation for information on various JavaScript functions and methods.
 
-Stack Overflow - I searched Stack Overflow for solutions to specific coding problems that I encountered during development.
+[Google Fonts](https://fonts.google.com/specimen/Bruno+Ace+SC) - I used the Google Fonts API to select and import the 'Lato' font for the game.
 
-Google Fonts - I used the Google Fonts API to select and import the 'Lato' font for the game.
+[Favicon](https://favicon.io/favicon-generator/) - I used the Flaticon website to find the icons used in the game's UI.
 
-Flaticon - I used the Flaticon website to find the icons used in the game's UI.
+[Coolors](https://coolors.co/) - I used Coolors to generate a color palette for the game's UI.
 
-Coolors - I used Coolors to generate a color palette for the game's UI.
-
-I would like to thank all of the above resources for providing me with valuable information and tools that helped me develop this game.
+I would like to thank all of the above resources for providing me with valuable information and tools that helped me develop this game. [Guessmynumber](https://gassama94.github.io/Guess-my-number/). With Gitpod, the entire process was made much easier and streamlined.
