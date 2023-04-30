@@ -6,7 +6,7 @@ let highScore = 0;
 
 
 /**
- * Add click  Eventlistener to check button and log the value of guess to console
+ * Add click  Eventlistener to check button and enter key and log the value of guess to console
  */
 document.querySelector('.check').addEventListener('click', function(){
     const guess = Number(document.querySelector('.guess').value);
@@ -96,13 +96,13 @@ document.querySelector('.again').addEventListener('click', function(){
     
 });
 
+
+/**
+ * Add click  Eventlistener to Escape key to refresh game 
+ */
 document.addEventListener('keydown', function(event){
     if (event.key === "Escape") {
         location.reload();}
 });
-document.addEventListener('keydown', function(e){
-     if (e.key === "Enter") {
-        document.querySelector(".check").click();
-      }
-});
+
 

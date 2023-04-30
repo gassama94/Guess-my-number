@@ -109,13 +109,13 @@ While manual testing and peer review were sufficient for this project, in the fu
 
 ## The following metrics were returned:
 ### Metrics
-* There are 2 functions in this file.
+* There are 4 functions in this file.
 
-* Function with the largest signature take 0 arguments, while the median is 0.
+* Function with the largest signature take 1 arguments, while the median is 0.5.
 
-* Largest function has 27 statements in it, while the median is 17.5.
+* Largest function has 28 statements in it, while the median is 5.5.
 
-* The most complex function has a cyclomatic complexity value of 8 while the median is 4.5.
+* The most complex function has a cyclomatic complexity value of 8 while the median is 2.
 
 # Deployment
 ## Github Deployment
