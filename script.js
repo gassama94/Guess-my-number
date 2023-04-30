@@ -12,6 +12,13 @@ document.querySelector('.check').addEventListener('click', function(){
     const guess = Number(document.querySelector('.guess').value);
     console.log(guess, typeof guess);
 
+    document.addEventListener('keydown', function(e){
+        if (e.key === "Enter") {
+    const guess = Number(document.querySelector('.guess').value);
+    console.log(guess, typeof guess);
+        }
+        });
+   
 
     /**
      * checking if there is a value in the input
@@ -87,5 +94,15 @@ document.querySelector('.again').addEventListener('click', function(){
     document.querySelector('body').style.backgroundColor = '#222';
     document.querySelector('.number').style.width = '15rem';
     
+});
+
+document.addEventListener('keydown', function(event){
+    if (event.key === "Escape") {
+        location.reload();}
+});
+document.addEventListener('keydown', function(e){
+     if (e.key === "Enter") {
+        document.querySelector(".check").click();
+      }
 });
 
