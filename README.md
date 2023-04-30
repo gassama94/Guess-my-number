@@ -150,7 +150,7 @@ I created this game by following a tutorial, taught by Jonas Schmedtmann. Howeve
 
 Here are the specific resources that I used during the development process:
 
-Mozilla Developer Network (MDN) - I referred to the MDN documentation for information on various JavaScript functions and methods.
+[Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/) - I referred to the MDN documentation for information on various JavaScript functions and methods.
 
 [Google Fonts](https://fonts.google.com/specimen/Bruno+Ace+SC) - I used the Google Fonts API to select and import the 'Lato' font for the game.
 
@@ -159,3 +159,6 @@ Mozilla Developer Network (MDN) - I referred to the MDN documentation for inform
 [Coolors](https://coolors.co/) - I used Coolors to generate a color palette for the game's UI.
 
 I would like to thank all of the above resources for providing me with valuable information and tools that helped me develop this game. [Guessmynumber](https://gassama94.github.io/Guess-my-number/). With Gitpod, the entire process was made much easier and streamlined.
+
+# Contact
+Please feel free to contact me at @[gassamasaikou@yahoo.com](mailto:gassamasaikou@yahoo.com)
